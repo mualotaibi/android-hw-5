@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#99b898"
+    tools:context=".Activity2">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_shown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="حالة الملف الصوتي"
+                android:textSize="50px"
+                android:textColor="#ff0000"
+                android:layout_gravity="center_horizontal" />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/pause_but"
+                android:layout_width="150px"
+                android:layout_height="80px"
+                android:text="ايقاف" />
+
+            <Button
+                android:id="@+id/play_but"
+                android:layout_width="150px"
+                android:layout_height="80px"
+                android:text="تشغيل" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.Andrody.com"
+            android:textSize="20dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="278dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#f1d1d1"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="Welcome.. to my App :) "
+        android:textColor="@color/BLUE"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+
+</RelativeLayout>
