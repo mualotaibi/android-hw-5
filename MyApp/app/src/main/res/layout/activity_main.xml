@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99b898"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:background="#E3A9A9"
+        android:backgroundTint="#D6C638"
+        android:fontFamily="@font/arizonia"
+        android:text="enter the following : "
+        android:textColor="#373934"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:background="#EDD7D6"
+        android:drawableRight="@drawable/abc_vector_test"
+        android:ems="15"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="#E8CDCD"
+        android:drawableRight="@drawable/abc_vector_test"
+        android:ems="15"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:hint="Age"
+        android:inputType="textAutoCorrect"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/yourjob"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:background="#E2C2C2"
+        android:drawableRight="@drawable/abc_vector_test"
+        android:ems="15"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:hint="your job"
+        android:inputType="textCapCharacters"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="#E2C2C2"
+        android:drawableRight="@android:drawable/stat_sys_phone_call"
+        android:ems="15"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:hint="phone number"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="#DAB4B5"
+        android:drawableRight="@android:drawable/ic_dialog_email"
+        android:ems="15"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:hint="Email"
+        android:inputType="textImeMultiLine"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:background="#FBF130"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="Next"
+        android:textColor="#3B5918"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:src="@drawable/sunflower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="65dp">
+
+    </ImageView>
+
+    <ImageView
+        android:src="@drawable/sunflower1"
+        android:layout_marginTop="190dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+    <ImageView
+        android:src="@drawable/sunflower1"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+</RelativeLayout>
